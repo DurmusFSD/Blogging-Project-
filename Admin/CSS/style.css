@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.side-nav {
+  width: 0%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease;
+  opacity: 0;
+}
+.side-nav.active {
+  width: 15%;
+  opacity: 1;
+}
+.page-content {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e5e7eb;
+  margin-left: 0%;
+  transition: 0.3s ease;
+}
+.page-content.active {
+  width: 85%;
+  margin-left: 15%;
+}
+.btn {
+  box-shadow: none !important;
+}
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.side-nav ul li {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 13px 0 13px 13px;
+  color: #444;
+  cursor: pointer;
+}
+.side-nav ul li a {
+  color: #444;
+  text-decoration: none;
+}
+.side-nav ul li:hover {
+  background-color: #ff6f61;
+  color: white !important;
+  border-radius: 15px;
+}
+.side-nav ul li a:hover {
+  color: white;
+}
+.side-nav ul li.active {
+  background-color: #ff6f61;
+  color: white !important;
+  border-radius: 15px;
+}
+.bell-icon {
+  background-color: red;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+}
+.gear-icon {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+}
+.custom-btn {
+  background-color: orange !important;
+  color: white !important;
+  border-radius: 50%;
+  padding: 10px;
+}
