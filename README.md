@@ -1,2 +1,1 @@
-# konusanlar-blog-projesi
-# konusanlar-blog-projesi-html-tailwindCSS-js
+# Blogging-Project-
